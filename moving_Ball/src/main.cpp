@@ -15,7 +15,7 @@ int main()
 	imgClone.copyTo(img);
 	int pointX, pointY, ballRotation;
 	srand(time(0));
-	ballRotation = 0 + (int) (360.0 * (rand() / (RAND_MAX + 1.0)));;
+	ballRotation = 0 + (int) (360.0 * (rand() / (RAND_MAX + 1.0)));
 	pointX = 320;
 	pointY = 240;
 	int radius = 15, speed = 5;
